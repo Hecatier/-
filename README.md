@@ -1,1 +1,8 @@
-# twitter_homeTimeline_trend
+# twitter_trend
+データ工学の課題で作った，ランキングのアルゴリズムを応用したプログラムです
+
+ranking.jsはsearch/tweetsというrestAPIを用いた，
+投げたクエリから取得したツイートによく含まれる文字をランキングにするプログラムです．
+
+stream_ranking.jsはstreamAPIを用いた，
+自分のタイムライン上でのランキングを作ることで擬似的にトレンドがわかるかもしれないプログラムです．
